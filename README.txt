@@ -1,4 +1,4 @@
-///***** Portfolio readme.md*****///
+This is my current portfolio site. Just html and css, nothing fancy (￣o￣) . z Z
 
 Inspired by: https://jgabriel.eu/
 
@@ -19,6 +19,6 @@ https://formsubmit.co/ - form submission
 https://dev.to/anuradha9712/create-reusable-web-components-in-html-1llc - templates, shadow DOM, redux
 
 
-Disclaimer: I'm sorry if you happen to look over this code while it is still in early its early stages, it is very messy. As they say, it gets the job done. There will be regular updates on the source code to make sure the website stays up to date.
+I'm sorry if you happen to look over this code while it is still in early its early stages, it is very messy. As they say, it gets the job done. There will be regular updates on the source code to make sure the website stays up to date.
 
 Legal Disclaimer: All trademarks, logos and brand names are the property of their respective owners. All company, product and service names used in this website are for identification purposes only. Use of these names,trademarks and brands does not imply endorsement.
