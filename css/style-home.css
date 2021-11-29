@@ -175,7 +175,7 @@ footer a:hover {
     }
 
     .burger div {
-        background: white;
+        background-color: white;
         height: 3px;
         width: 25px;
         margin: 5px;
