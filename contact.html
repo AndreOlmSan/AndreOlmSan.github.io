@@ -1,0 +1,62 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Andre's Website</title>
+    <link rel="shortcut icon" href="/img/AS.png" type="image/x-icon" />
+    <link rel="stylesheet" href=/css/style-other.css>
+    
+  </head>
+  
+  <body class="contact">
+    <header>
+      <nav>
+        <a href="/index.html" class="nav-logo">Andre Santiago</a>
+        <input type="checkbox" id="check">
+        <label for="check">
+          <div class="burger">
+            <div class="line1"></div>
+            <div class="line2"></div>
+            <div class="line3"></div>
+          </div>
+        </label>
+        <ul>
+          <li class="nav-item"><a href="/index.html">Home</a></li>
+          <li class="nav-item"><a href="/html/aboutme.html">About Me</a></li>
+          <li class="nav-item"><a href="/html/portfolio.html">Portfolio</a></li>
+          <li class="nav-item"><a href="#" class="contact">Contact Me</a></li>
+          <li class="nav-item"><a href="https://github.com/AndreOlmSan/"><img src="/img/githublogo.png" alt="GithubLogo"></a></li>
+          <li class="nav-item"><a href="#"><img src="/img/linkedinlogo.png" alt="LinkedinLogo"></a></li>
+        </ul>
+      </nav> 
+  </header>
+
+    <main>
+      <section class='home-section'></section>
+      <section class="contact-container">
+        <h6>Contact Me</h6>
+        <p> You got something to say!? WELL SAY IT! (using the contact form below)</p>
+          <form action="https://formsubmit.co/andreolmsan@gmail.com" method="POST" class="input-container">
+                <input type="hidden" name="_captcha" value="false">
+                <input type="text" class="name" name="name" placeholder="Name" required>
+                <input type="email" class="email" name="email" placeholder="Email" required>
+                <input type="hidden" name="_next" value="http://localhost:5500/html/thank.html">
+            <textarea class="message" name="body" cols="50" rows="10" placeholder="Enter your message here ..." required> </textarea>
+            <button class="send" type="submit">Send Messsage</button>  
+          </form>
+      </section>
+    </main>
+        
+    <footer>
+      <p><small>&copy; 2021 Andre Santiago, The Blog</small></p>
+      <a href="/html/legal.html">Legal Disclaimer</a>
+    </footer>
+
+  </body>
+</html>
+
+
+
+

@@ -1,0 +1,83 @@
+@import url("https://fonts.googleapis.com/css2?family=Poppins:wght@400;600;700&display=swap");
+
+// :root {
+//     --text-primary: white;
+//     --text-secondary: rgb(133, 133, 133);
+// }
+
+@keyframes showTopText {
+  0% {
+    transform: translate3d(0, 100%, 0);
+  }
+  // 40%, 60% { transform: translate3d(0, 50%, 0); }
+  100% {
+    transform: translate3d(0, 0, 0);
+  }
+}
+@keyframes showBottomText {
+  0% {
+    transform: translate3d(0, -100%, 0);
+  }
+  100% {
+    transform: translate3d(0, 0, 0);
+  }
+}
+
+.animated-title {
+  color: white;
+  font-family: Poppins, Arial, sans-serif;
+  height: 15rem;
+  width: 15rem;
+  position: absolute;
+  left: 55%;
+  top: 30%;
+  padding: 1.5rem;
+  margin-left: 2rem;
+}
+.animated-title > div {
+  height: 50%;
+  overflow: hidden;
+  position: absolute;
+  width: 110%;
+}
+.animated-title > div div {
+  font-size: 3vmin;
+  padding: 1vmin 0;
+  position: absolute;
+  font-weight: 600;
+}
+
+.animated-title > div.text-top {
+  border-bottom: 5px solid black;
+  top: 0;
+}
+.animated-title > div.text-top div {
+  animation: showTopText 1s;
+  animation-delay: 0.5s;
+  animation-fill-mode: forwards;
+  bottom: 0;
+  transform: translate(0, 100%);
+}
+
+.animated-title > div.text-bottom {
+  bottom: 0;
+}
+.animated-title > div.text-bottom div {
+  animation: showBottomText 1s;
+  animation-delay: 1.5s;
+  animation-fill-mode: forwards;
+  top: 0;
+  transform: translate(0, -100%);
+}
+
+@media screen and (max-width: 850px) {
+  .animated-title {
+    display: none;
+  }
+}
+
+@media screen and (max-height: 650px) {
+  .animated-title {
+    display: none;
+  }
+}
